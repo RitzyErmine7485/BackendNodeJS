@@ -18,7 +18,7 @@ const userSchema = Schema({
         type: Boolean,
         default: false
     },
-    subject: {
+    subjects: {
         type: [String],
         required: false
     }
